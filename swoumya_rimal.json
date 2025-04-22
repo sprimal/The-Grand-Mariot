@@ -1,0 +1,506 @@
+{
+    "title": "swoumya_rimal",
+    "selectorAttribute": "data-test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1229,
+            "height": 945,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://studentweb.cencol.ca/srimal5/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/",
+                    "title": "Document"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li:nth-of-type(2) > a"
+                ],
+                [
+                    "xpath//html/body/div[1]/nav/ul/li[2]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(2) > a"
+                ],
+                [
+                    "aria/ABOUT"
+                ],
+                [
+                    "text/ABOUT"
+                ]
+            ],
+            "offsetY": 5,
+            "offsetX": 37.828125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/about.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.dropdown > a"
+                ],
+                [
+                    "xpath//html/body/div/nav/ul/li[3]/a"
+                ],
+                [
+                    "pierce/li.dropdown > a"
+                ],
+                [
+                    "aria/MENU/LIST"
+                ],
+                [
+                    "text/MENU/LIST"
+                ]
+            ],
+            "offsetY": 26,
+            "offsetX": 31.515625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/menulist.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li:nth-of-type(4) > a"
+                ],
+                [
+                    "xpath//html/body/div/nav/ul/li[4]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(4) > a"
+                ],
+                [
+                    "aria/SITEMAP"
+                ],
+                [
+                    "text/SITEMAP"
+                ]
+            ],
+            "offsetY": 9,
+            "offsetX": 41.125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/sitemap.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li:nth-of-type(5) > a"
+                ],
+                [
+                    "xpath//html/body/div/nav/ul/li[5]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(5) > a"
+                ],
+                [
+                    "aria/CONTACT"
+                ],
+                [
+                    "text/CONTACT"
+                ]
+            ],
+            "offsetY": 4,
+            "offsetX": 28.953125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/contact.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li:nth-of-type(6) > a"
+                ],
+                [
+                    "xpath//html/body/div[1]/nav/ul/li[6]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(6) > a"
+                ],
+                [
+                    "aria/LOCATION"
+                ],
+                [
+                    "text/LOCATION"
+                ]
+            ],
+            "offsetY": 6,
+            "offsetX": 74.28125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/srimal5/location.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/FIRST NAME:"
+                ]
+            ],
+            "offsetY": 21,
+            "offsetX": 90.328125
+        },
+        {
+            "type": "change",
+            "value": "swoumya",
+            "selectors": [
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/FIRST NAME:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[2]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/LAST NAME:"
+                ]
+            ],
+            "offsetY": 17,
+            "offsetX": 79.328125
+        },
+        {
+            "type": "change",
+            "value": "rimal",
+            "selectors": [
+                [
+                    "label:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[2]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/LAST NAME:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ],
+                [
+                    "aria/ADDERSS:"
+                ]
+            ],
+            "offsetY": 19,
+            "offsetX": 36.328125
+        },
+        {
+            "type": "change",
+            "value": "34 marta ave",
+            "selectors": [
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ],
+                [
+                    "aria/ADDERSS:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "toronto",
+            "selectors": [
+                [
+                    "label:nth-of-type(4) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[4]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(4) > input"
+                ],
+                [
+                    "aria/CITY:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "M1K 1V7",
+            "selectors": [
+                [
+                    "label:nth-of-type(5) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[5]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(5) > input"
+                ],
+                [
+                    "aria/POSTAL CODE:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "ON",
+            "selectors": [
+                [
+                    "label:nth-of-type(6) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[6]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(6) > input"
+                ],
+                [
+                    "aria/PROVINCE:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(7) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[7]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(7) > input"
+                ],
+                [
+                    "aria/AGE:"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 80.328125
+        },
+        {
+            "type": "change",
+            "value": "19",
+            "selectors": [
+                [
+                    "label:nth-of-type(7) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[7]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(7) > input"
+                ],
+                [
+                    "aria/AGE:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(8) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[8]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(8) > input"
+                ],
+                [
+                    "aria/PASSWORD:"
+                ]
+            ],
+            "offsetY": 20,
+            "offsetX": 115.328125
+        },
+        {
+            "type": "change",
+            "value": "swoumyarimal ",
+            "selectors": [
+                [
+                    "label:nth-of-type(8) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[8]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(8) > input"
+                ],
+                [
+                    "aria/PASSWORD:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(9) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[9]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(9) > input"
+                ],
+                [
+                    "aria/CONFORM PASSWORD:"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 137.328125
+        },
+        {
+            "type": "change",
+            "value": "swoumya rimal",
+            "selectors": [
+                [
+                    "label:nth-of-type(9) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[9]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(9) > input"
+                ],
+                [
+                    "aria/CONFORM PASSWORD:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(10) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[10]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(10) > input"
+                ],
+                [
+                    "aria/EMAIL:"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 91.328125
+        },
+        {
+            "type": "change",
+            "value": "swoumyarimal",
+            "selectors": [
+                [
+                    "label:nth-of-type(10) > input"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/form/label[10]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(10) > input"
+                ],
+                [
+                    "aria/EMAIL:"
+                ]
+            ],
+            "target": "main"
+        }
+    ]
+}

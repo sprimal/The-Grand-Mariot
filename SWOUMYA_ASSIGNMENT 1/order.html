@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
+
+</head>
+
+<body>
+
+    <div class="hiro">
+        <nav>
+            <h2 class='logo'><a href='index.html' class='home89'>THEGRAND<span>MARIOT</span></a></h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li class="dropdown">
+                    <a href="menulist.html" class="dropbtn">MENU/LIST</a>
+                    <div class="dropdown-content">
+                        <a href="calendar.html">Calender</a>
+                        <a href="image.html">Gallery</a>
+                        <a href="order.html">List</a>
+                    </div>
+                </li>
+                <li><a href="sitemap.html">SITEMAP</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+            </ul>
+            <button type='button' class='login'><a
+                    href='https://mysso.centennialcollege.ca/authenticationendpoint/login.do?RelayState=eyJ0ZW5hbnRJZCI6ImZkMWY2NGJiLTMyZjgtNDk5Yy04NTc3LTA1ZTE1M2U2MWU5OSIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG5pMklBQyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9leHBlcmllbmNlLmVsbHVjaWFuY2xvdWQuY2EvY2NvYWFhdDUyMC9hdXRoL2NhbGxiYWNrIiwiaWRwTG9nb3V0VXJsIjoiaHR0cHM6Ly9leHBlcmllbmNlLmVsbHVjaWFuY2xvdWQuY2EvaWRwLWxvZ291dCIsInRva2VuVmVyc2lvbiI6IjEuMS4wIn0%3D&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=2eaf4eb3-dcf4-4e5e-a875-3afd91bacd21&relyingParty=EllucianExperience&type=samlsso&sp=EllucianExperience&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL'
+                    class='explore'>Login</a>
+            </button>
+        </nav>
+
+
+
+
+
+
+
+
+        <div class="menu-container">
+            <h2>Lunch Menu</h2>
+
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="120">
+                <label>MOMO ($120)</label>
+            </div>
+
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="200">
+                <label>CHAOWMIN($200)</label>
+            </div>
+
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="449">
+                <label>SUSHI ($449)</label>
+            </div>
+
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="290">
+                <label>BUTTER NAAN($290)</label>
+            </div>
+
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="500">
+                <label>BUFFALO WINGS($500)</label>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" class="menu-checkbox" data-price="650">
+                <label>RAMEN($650)</label>
+            </div>
+
+            <button class="calculate-btn" onclick="calculateTotal()">Calculate</button>
+
+            <div class="total-box">
+                <p>Item total: $<span id="item-total">0.00</span></p>
+                <p>Tax (13%): $<span id="tax-amount">0.00</span></p>
+                <p><strong>Total with tax: $<span id="total-with-tax">0.00</span></strong></p>
+            </div>
+        </div>
+
+
+
+        <script src="order.js"></script>
+</body>
+
+</html>

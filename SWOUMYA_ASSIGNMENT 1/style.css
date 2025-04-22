@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+
+}
+
+.home89 {
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('resources\background-img\background-img.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('resources/background-img/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(64, 64, 64);
+}
+
+
+
+.logo {
+    color: rgb(64, 64, 64);
+    font-size: 28px;
+}
+
+span {
+    color: rgb(255, 165, 0);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(64, 64, 64);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 165, 0);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.login {
+    border: none;
+    background: rgb(255, 165, 0);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.login:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.explore {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hero-text {
+    margin-top: 200px;
+    
+    display: block;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    text-align: center;
+    /* Ensures text alignment */
+    color: white;
+    /* Makes text stand out on a dark background */
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(64, 64, 64);
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(64, 64, 64);
+    
+}
+
+
+/*dropdown menu--!*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* .dropbtn:hover {
+    background-color: #ea1538; /* Highlight when hovered }*/
+
+
+/* The Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* The Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(64, 64, 64);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* .dropdown-content a:hover {
+    background-color: #ea1538;
+} */
+
+/* Show the dropdown menu when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
