@@ -3,7 +3,7 @@
 
 
 .sub-heading-properties {
-    color: rgb(64,64,64);
+    color: rgb(64, 64, 64);
     background-color: transparent;
     font-size: 34px;
     margin-top: 50px;
@@ -29,12 +29,12 @@
 .card-review {
     width: 90%;
     max-width: 325px;
-    background-color: gray;
+    background-color: rgb(255, 165, 0);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 px 2 px 4 px rgba(0, 0, 0, 0.2);
     margin: 10px auto;
-    border: black 2px;
+    border: black 5px;
 }
 
 .card-review img {
